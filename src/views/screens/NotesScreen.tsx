@@ -54,7 +54,7 @@ const NotesScreen: React.FC = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 40, // added top margin
+    paddingTop: 40, 
     paddingHorizontal: 16,
     backgroundColor: "#fff",
   },
@@ -84,6 +84,7 @@ const styles = StyleSheet.create({
     color: "#999",
     fontStyle: "italic",
   },
+
 });
 
 export default NotesScreen;
